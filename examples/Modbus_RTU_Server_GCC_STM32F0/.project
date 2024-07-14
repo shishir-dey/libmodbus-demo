@@ -33,7 +33,7 @@
 		<link>
 			<name>libmodbus</name>
 			<type>2</type>
-			<location>C:/Users/Shishir Dey/Desktop/libmodbus-demo/lib/libmodbus</location>
+			<locationURI>PARENT-2-PROJECT_LOC/lib/libmodbus</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

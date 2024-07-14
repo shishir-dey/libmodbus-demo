@@ -43,9 +43,18 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.1006081917.1194335461" name="/" resourcePath="libmodbus/src">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.exe.debug.1204820902" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.exe.debug" unusedChildren="">
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug.1931839580" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug.313020728"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.267487347" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base.2109032195"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.347240106" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.1751413537"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.904386836" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1940901030"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug.1433982942" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug.30259875"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug.837641502" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug.1154228372"/>
+						</toolChain>
+					</folderInfo>
 					<sourceEntries>
-						<entry excluding="libmodbus/tests|libmodbus/src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="libmodbus/src"/>
+						<entry excluding="libmodbus/tests" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -115,4 +124,12 @@
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/Modbus_RTU_Server_MinGW_x86_64"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/Modbus_RTU_Server_MinGW_x86_64"/>
+		</configuration>
+	</storageModule>
 </cproject>
